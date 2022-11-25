@@ -3,17 +3,13 @@ on:
     branches:
       - master
 
-
-
-
 jops:
   build:
     rins-on: ubuntu-latest
 
-    steps:
-      - name: 'test github action'
-        run: pwd
 
-      - name: 'test print'
-        run: echo ahmed
+    steps:
+      - name: 'print all list'
+        run: ls
+
 
