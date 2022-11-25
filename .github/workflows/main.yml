@@ -9,6 +9,6 @@ jobs:
     
     steps:
       - name: 'print all list'
-        run: ls
+      run: ls
 
 
