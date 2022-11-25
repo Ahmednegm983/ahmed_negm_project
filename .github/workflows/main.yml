@@ -5,9 +5,8 @@ on:
 
 jops:
   build:
-    rins-on: ubuntu-latest
-
-
+    rins-on: openjdk-latest
+    
     steps:
       - name: 'print all list'
         run: ls
