@@ -3,9 +3,9 @@ on:
     branches:
       - master
 
-jops:
+jobs:
   build:
-    rins-on: openjdk-latest
+    rins-on: ubuntu-latest
     
     steps:
       - name: 'print all list'
